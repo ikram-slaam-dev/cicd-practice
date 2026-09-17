@@ -1,12 +1,12 @@
 name: cicd in github actions
 
-        on: 
+on: 
   push:
     branches: main
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latestytevhb
 
     steps:
       - uses: actions/checkout@v4
