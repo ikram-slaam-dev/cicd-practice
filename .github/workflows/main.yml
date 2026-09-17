@@ -1,6 +1,6 @@
 name: cicd in github actions
 
-on: 
+        on: 
   push:
     branches: main
 
