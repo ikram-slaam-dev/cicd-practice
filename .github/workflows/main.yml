@@ -11,8 +11,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: my first step
+      - name: initialize repo
 
         run: |
           echo "This is IKram Slaam"
           uname -a
+
+      - name: check the docker installation
+
+        run: |
+          docker
+          docker images
+
+      - name: run docker container
+
+        run: |
+          docker run hello-world
